@@ -63,9 +63,9 @@ source .bashrc
 ```
 
 8. Creating SSH Keys to connect to the cluster nodes
-
+```
 ssh-keygen
-
+```
 
 9. Create kubernetes cluster definitions on S3 Bucket
 
