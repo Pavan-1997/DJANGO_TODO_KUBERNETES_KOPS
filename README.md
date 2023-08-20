@@ -86,9 +86,9 @@ kops create secret --name ${NAME} sshpublickey admin -i ~/.ssh/id_rsa.pub
 ```
 
 11. Create K8 Cluster:
-
+```
 kops update cluster ${NAME} --yes --admin
-
+```
 
 12. Validate your Cluster:
 
