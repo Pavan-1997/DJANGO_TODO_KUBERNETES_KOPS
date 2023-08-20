@@ -96,9 +96,9 @@ kops validate cluster
 ```
 
 13. To list nodes:
-
+```
 kubectl get nodes
-
+```
 
 14. Delete Cluster:
 
