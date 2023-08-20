@@ -51,14 +51,16 @@ aws s3 mb s3://<bucket-name>.k8s.local
 ```
 
 7. Add and Expose enviroment variables:
-
+```
 vi .bashrc
-
+```
+```
 export NAME=<cluster-name>.k8s.local
 export KOPS_STATE_STORE=s3://<bucket-name>.k8s.local
-
+```
+```
 source .bashrc
-
+```
 
 8. Creating SSH Keys to connect to the cluster nodes
 
