@@ -33,15 +33,15 @@ sudo mv ./kubectl /usr/local/bin
 sudo kubectl version
 ```
 
-5. Create IAM Role from Console or CLI with below Policies:
+5. Create IAM Role from Console or CLI with the below Policies:
 
-AmazonEC2FullAccess
+- AmazonEC2FullAccess
 
-AmazonS3FullAccess
+- AmazonS3FullAccess
 
-IAMFullAccess
+- IAMFullAccess
 
-AmazonVPCFullAccess
+- AmazonVPCFullAccess
 
 Then attach the IAM Role to the running KOPS Ubuntu Server from the Intance Actions --> Security --> Modify IAM Role --> Select the IAM Role created
 
