@@ -68,7 +68,7 @@ ssh-keygen
 ```
 
 9. Create kubernetes cluster definitions on S3 Bucket
-
+```
 kops create cluster \
 --state=${KOPS_STATE_STORE} \
 --node-count=2 \
@@ -78,6 +78,7 @@ kops create cluster \
 --name=${NAME} \
 --dns private \
 --master-count 1
+```
 
 10. Create a secret for KOPS to copy SSH
 
