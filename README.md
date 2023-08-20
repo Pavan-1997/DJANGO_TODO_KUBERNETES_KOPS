@@ -101,9 +101,9 @@ kubectl get nodes
 ```
 
 14. Delete Cluster:
-
+```
 kops delete cluster --name=${NAME} --state=${KOPS_STATE_STORE} --yes
-
+```
 
 
 
