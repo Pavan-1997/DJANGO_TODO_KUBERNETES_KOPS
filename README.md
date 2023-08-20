@@ -81,9 +81,9 @@ kops create cluster \
 ```
 
 10. Create a secret for KOPS to copy SSH
-
+```
 kops create secret --name ${NAME} sshpublickey admin -i ~/.ssh/id_rsa.pub
-
+```
 
 11. Create K8 Cluster:
 
