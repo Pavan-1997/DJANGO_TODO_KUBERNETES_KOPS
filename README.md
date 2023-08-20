@@ -23,7 +23,7 @@ sudo mv kops-linux-amd64 /usr/local/bin/kops
 ```
 
 4. Install Kubectl:
-
+```
 sudo curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 
 sudo chmod +x ./kubectl
@@ -31,7 +31,7 @@ sudo chmod +x ./kubectl
 sudo mv ./kubectl /usr/local/bin
 
 sudo kubectl version
-
+```
 
 5. Create IAM Role from Console or CLI with below Policies:
 
