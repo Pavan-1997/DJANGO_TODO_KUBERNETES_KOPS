@@ -91,9 +91,9 @@ kops update cluster ${NAME} --yes --admin
 ```
 
 12. Validate your Cluster:
-
+```
 kops validate cluster
-
+```
 
 13. To list nodes:
 
