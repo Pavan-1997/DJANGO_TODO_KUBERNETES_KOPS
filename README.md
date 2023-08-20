@@ -12,7 +12,7 @@ sudo ./aws/install
 ```
 
 3. Install KOPS:
-
+```
 sudo apt install wget -y
 
 sudo curl -LO https://github.com/kubernetes/kops/releases/download/v1.20.0/kops-linux-amd64
@@ -20,7 +20,7 @@ sudo curl -LO https://github.com/kubernetes/kops/releases/download/v1.20.0/kops-
 sudo chmod +x kops-linux-amd64
 
 sudo mv kops-linux-amd64 /usr/local/bin/kops
-
+```
 
 4. Install Kubectl:
 
