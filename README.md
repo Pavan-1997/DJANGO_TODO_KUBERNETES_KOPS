@@ -46,9 +46,9 @@ sudo kubectl version
 
 
 6. Create a S3 Bucket (To have etcd stored because to have HA) and use unique name:
-
+```
 aws s3 mb s3://<bucket-name>.k8s.local
-
+```
 
 7. Add and Expose enviroment variables:
 
